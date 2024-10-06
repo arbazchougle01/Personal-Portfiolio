@@ -1,3 +1,4 @@
+
 body {
   margin: 0px;
   padding: 0px;
@@ -22,7 +23,7 @@ header {
   font-size: 24px;
   height: 130px;
 }
-.links {
+.header-links {
   margin-left: 115px;
   width: 70%;
   padding: 10px;
@@ -30,7 +31,7 @@ header {
   align-content: center;
   font-family: "Poppins";
 }
-.links  > a {
+.header-links  > a {
   margin-right: 43px;
   margin-top: 15px;
   color: aliceblue;
@@ -80,10 +81,10 @@ header {
   justify-content: center;
   padding: 10px 20px;
 }
-.ttechpathshaala-logo-section  > a {
+.techpathshaala-logo-section >p  > a {
   color: #0948b4;
   font-family: Lato;
-  font-size: 20px;
+  font-size: 17px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 400;
@@ -195,7 +196,7 @@ header {
   line-height: normal;
   width: 586px;
 }
-#profile-section  > .profile-details  > #download {
+#profile-section  > .profile-details  > #download-button {
   background-color: #0948b4;
   border: none;
   color: white;
@@ -205,7 +206,7 @@ header {
   font-size: 18px;
   font-family: poppins;
 }
-#see-my-work {
+#show-work-button {
   background-color: white;
   border: 2px solid #0948b4;
   border-radius: 8px;
@@ -691,13 +692,13 @@ header {
   display: flex;
   width: 450px;
 }
-#qualification   > .qualification-data > .education-section   > .rline {
+#qualification   > .qualification-data > .education-section   > .bullet-point-line {
   width: 50px;
   padding-top: 35px;
   display: grid;
   height: 625px;
 }
-#qualification   > .qualification-data   > .education-section  >  .rline   > .round {
+#qualification   > .qualification-data   > .education-section  >  .bullet-point-line   > .bullet-point {
   border: 2px solid black;
   border-radius: 50%;
   background-color: #000;
