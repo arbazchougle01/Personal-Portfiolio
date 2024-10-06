@@ -9,7 +9,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-left: 100px;
+ padding-left: 125px;
 }
 
 /* <!-- ------------------------------------------------------HEADER starts ends----------------------------------------------------------> */
@@ -20,7 +20,7 @@ header {
   background-color: rgb(39, 34, 34);
   color: aliceblue;
   font-size: 24px;
-  height: 145px;
+  height: 130px;
 }
 .links {
   margin-left: 115px;
@@ -30,7 +30,7 @@ header {
   align-content: center;
   font-family: "Poppins";
 }
-.links a {
+.links  > a {
   margin-right: 43px;
   margin-top: 15px;
   color: aliceblue;
@@ -43,7 +43,7 @@ header {
   margin-right: 120px;
 }
 
-.search-bar p {
+.search-bar > p {
   background: #555;
   width: 220px;
   height: 34px;
@@ -55,32 +55,30 @@ header {
   font-family: Poppins;
   font-size: 23px;
 }
-.search-bar .fa-solid{
+.search-bar  > .fa-solid {
   margin-bottom: 5px;
 }
 
 /* <!-- ------------------------------------------------------HEADER ends----------------------------------------------------------> */
 
+/* <!-- ---------------------------------------------techpathshaala-logo-section at Section starts ----------------------------------------------------------> */
 
-
-/* <!-- ------------------------------------------------------Performed at Section starts ----------------------------------------------------------> */
-
-.performedat {
+.techpathshaala-logo-section {
   display: flex;
   border: 2px solid #f3bd00;
   border-radius: 0 0 16px 16px;
-  width: 652px;
+  width: 634px;
   height: 20px;
   margin: 0 auto;
   background-color: #fff0bb;
   position: relative;
-  bottom: 17px;
+  bottom: 1px;
   z-index: 2;
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
 }
-.performedat a {
+.ttechpathshaala-logo-section  > a {
   color: #0948b4;
   font-family: Lato;
   font-size: 20px;
@@ -90,9 +88,9 @@ header {
   line-height: normal;
   text-decoration-line: underline;
 }
-.performedat p {
+.techpathshaala-logo-section  > p {
   display: flex;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 500;
   color: #1d1d1d;
   text-align: center;
@@ -104,40 +102,42 @@ header {
   font-family: "Poppins";
 }
 
-.performedat > p > img {
+.techpathshaala-logo-section > p > img {
   height: 50px;
   width: 200px;
 }
-/* <!-- ------------------------------------------------------Performed at Section ends ----------------------------------------------------------> */
-
-
+/* <!-- --------------------------------------------techpathshaala-logo-section at Section ends ----------------------------------------------------------> */
 
 /* <!-- ----------------------------------------------------------video section starts ----------------------------------------------------------> */
 
 .intro-video {
-  width: 100%;
-  height: 800px;
+  width: 99vw;
+  height: 570px;
+  position: relative;
+  bottom: 43px;
+  background-color: #000;
 }
 
-.intro-video #bg-image {
-  height: 800px;
+.intro-video >  #bg-image {
+  height: 570px;
   width: 100%;
   position: relative;
   bottom: 60px;
 }
 
-.intro-video #bg-video{
-  height: 851px;
-  width: 100%;
+.intro-video >  #bg-video {
+  height: 565px;
+  width: 98vw;
+  background-color: #000;
   position: relative;
-  bottom: 60px;
+  right: 8px;
 }
 
-.intro-video button {
+.intro-video >  button {
   height: 101px;
   width: 106px;
   position: relative;
-  bottom: 505px;
+  bottom: 360px;
   left: 680px;
   border: 0px;
   background: #00000000;
@@ -146,31 +146,29 @@ header {
 
 /* <!-- ----------------------------------------------------------video section ends ----------------------------------------------------------> */
 
-
-
 /* <!------------------------------------------------------------Profile- Section starts----------------------------------------------------------> */
 
 #profile-section {
-  margin-top: 70px;
+  margin-top: 40px;
   display: flex;
   height: 550px;
 }
 
-#profile-section .profile-details {
+#profile-section  > .profile-details {
   margin-bottom: 100px;
   width: 700px;
 }
 
-#profile-section .profile-details h2 {
+#profile-section  > .profile-details  > h2 {
   margin: 0px 0px 10px;
   color: #1d1d1d;
   font-family: Poppins;
-  font-size: 53px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-#profile-section .profile-details h3 {
+#profile-section  > .profile-details >  h3 {
   display: inline;
   color: #1d1d1d;
   font-family: Poppins;
@@ -180,9 +178,10 @@ header {
   line-height: normal;
 }
 
-#profile-section .profile-details p {
+#profile-section  > .profile-details  > p {
   color: #555;
   margin: 15px 0px;
+  margin-top: 5px;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -190,17 +189,17 @@ header {
   line-height: normal;
   width: 586px;
 }
-#profile-section .profile-details #download {
+#profile-section  > .profile-details  > #download {
   background-color: #0948b4;
   border: none;
   color: white;
   border-radius: 8px;
-  height: 55px;
-  width: 247px;
+  height: 50px;
+  width: 240px;
   font-size: 18px;
   font-family: poppins;
 }
-#profile-section .profile-details #see-my-work {
+#see-my-work {
   background-color: white;
   border: 2px solid #0948b4;
   border-radius: 8px;
@@ -215,7 +214,7 @@ header {
   margin-left: 15px;
 }
 
-#profile-section .profile-img {
+#profile-section  > .profile-img {
   display: flex;
   width: 575px;
   height: 447px;
@@ -229,16 +228,14 @@ header {
   /* border: 2px solid #0948b4; */
 }
 
-#profile-section .profile-img img {
+#profile-section  > .profile-img  > img {
   width: 560px;
   height: 780px;
   position: relative;
-  bottom: 78px;
+  bottom: 65px;
 }
 
 /* <!------------------------------------------------------------Profile- Section ends----------------------------------------------------------> */
-
-
 
 /* <!------------------------------------------------------------Suitable- Section starts----------------------------------------------------------> */
 
@@ -256,9 +253,9 @@ header {
   z-index: 2;
   border-radius: 16px;
   background: #f1f1f1;
-  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.2);
 }
-#suitable-section #p1 {
+#suitable-section  > #p1 {
   margin-top: 15px;
   display: block;
   text-align: center;
@@ -273,7 +270,7 @@ header {
   margin: 0%;
 }
 
-#suitable-section #p2 {
+#suitable-section  > #p2 {
   color: #1d1d1d;
   font-family: Poppins;
   font-size: 24px;
@@ -285,12 +282,11 @@ header {
 
 /* <!------------------------------------------------------------Suitable- Section ends----------------------------------------------------------> */
 
-
-
 /* <!------------------------------------------------------------Expertise- Section starts----------------------------------------------------------> */
 
-#expertise-section h2 {
+#expertise-section >  h2 {
   margin-bottom: 68px;
+  margin-top: 0px;
   color: #1d1d1d;
   width: 1200px;
   font-family: Poppins;
@@ -300,7 +296,7 @@ header {
   line-height: normal;
 }
 
-#expertise-section .exp-data {
+#expertise-section  > .expertise-data {
   display: flex;
   width: 1230px;
   padding: 20px;
@@ -309,15 +305,15 @@ header {
   gap: 25px;
   border-radius: 16px;
   background: #f1f1f1;
-  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.2);
 }
 
-#expertise-section .exp-data img {
+#expertise-section  > .expertise-data  > img {
   height: 250px;
   width: 265px;
   border-radius: 8px;
 }
-#expertise-section .exp-data .exp-txt h3 {
+#expertise-section  > .expertise-data  > .expertise-text h3 {
   color: #1d1d1d;
   font-family: Poppins;
   font-size: 43px;
@@ -327,10 +323,10 @@ header {
   margin: 0px 0px 8px 0px;
 }
 
-#expertise-section .exp-data .exp-txt p {
+#expertise-section  > .expertise-data  > .expertise-text p {
   color: #555;
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -340,13 +336,10 @@ header {
 
 /* <!------------------------------------------------------------Expertise- Section ends----------------------------------------------------------> */
 
-
-
-
 /* <!------------------------------------------------------------Tech- Skills- Section starts----------------------------------------------------------> */
 
 
-#techskills-section h2 {
+#techskills-section >  h2 {
   margin-bottom: 25px;
   color: #1d1d1d;
   font-family: Poppins;
@@ -355,21 +348,21 @@ header {
   font-weight: 700;
   line-height: normal;
 }
-#techskills-section .tsarticles {
+#techskills-section  > .tsarticles {
   display: flex;
   align-items: center;
   gap: 55px;
   overflow: scroll;
   scrollbar-width: none;
 }
-#techskills-section .tsarticles article {
+#techskills-section  >  .tsarticles  >  article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 14.964px;
 }
-#techskills-section .tsarticles article p {
+#techskills-section   > .tsarticles   > article   > p {
   color: var(--Schemes-Scrim, #000);
   font-family: Poppins;
   font-size: 29.929px;
@@ -378,28 +371,25 @@ header {
   line-height: normal;
   margin: 0%;
 }
-#techskills-section .tsarticles article img {
+#techskills-section   > .tsarticles   > article  >  img {
   width: 138.232px;
-  height: 120.232px;
+  height: 110.232px;
 }
-#techskills-section .tsarticles article #devtools {
+#techskills-section   > .tsarticles   > article  >  #devtools {
   width: 240.464px;
-  height: 120.232px;
+  height: 110.232px;
   flex-shrink: 0;
   padding: 0px 8px;
 }
-#dev-tools-article{
+#dev-tools-article {
   margin-top: 47px;
 }
 
 /* <!------------------------------------------------------------Tech- Skills- Section ends----------------------------------------------------------> */
 
-
-
-
 /* <!------------------------------------------------------------Soft- Skills- Section starts----------------------------------------------------------> */
 
-#soft-skills-section h2 {
+#soft-skills-section  >  h2 {
   color: #1d1d1d;
   font-family: Poppins;
   font-size: 50px;
@@ -408,7 +398,7 @@ header {
   line-height: normal;
   margin-bottom: 68px;
 }
-#soft-skills-section .soft-skills-data {
+#soft-skills-section   > .soft-skills-data {
   width: 1190px;
   height: 210px;
   gap: 40px;
@@ -417,20 +407,20 @@ header {
   align-items: center;
   border-radius: 16px;
   background: #f1f1f1;
-  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.2);
 }
-#soft-skills-section .soft-skills-data article {
+#soft-skills-section   > .soft-skills-data   > article {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
-#soft-skills-section .soft-skills-data article img {
+#soft-skills-section  >  .soft-skills-data  >  article  >  img {
   width: 90px;
   height: 80px;
 }
 
-#soft-skills-section .soft-skills-data article p {
+#soft-skills-section  >  .soft-skills-data  >  article p {
   width: 281px;
   margin: 0%;
   color: #1d1d1d;
@@ -444,20 +434,16 @@ header {
 
 /* <!------------------------------------------------------------Soft- Skills- Section ends----------------------------------------------------------> */
 
-
-
-
 /* <!------------------------------------------------------------Projects sections starts----------------------------------------------------------> */
 
 #projects-section {
   display: flex;
   flex-direction: column;
 }
-#projects-section .projects-data {
+#projects-section   > .projects-data {
   display: flex;
   overflow: scroll;
-overflow: scroll;
-scrollbar-width: none;
+  scrollbar-width: none;
   height: 520px;
   flex-direction: row;
   align-items: center;
@@ -465,7 +451,7 @@ scrollbar-width: none;
   border-radius: 8px;
 }
 
-#projects-section h2 {
+#projects-section  >  h2 {
   color: #1d1d1d;
   font-family: Poppins;
   font-size: 50px;
@@ -474,7 +460,7 @@ scrollbar-width: none;
   line-height: normal;
   margin-bottom: 30px;
 }
-#projects-section .projects-data article {
+#projects-section  >  .projects-data   > article {
   display: flex;
   height: 420px;
   padding: 20px;
@@ -482,16 +468,16 @@ scrollbar-width: none;
   align-items: start;
   border-radius: 16px;
   background: #f1f1f1;
-  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.2);
 }
 
-#projects-section .projects-data article img {
+#projects-section  >  .projects-data   > article   > img {
   width: 350px;
   height: 205px;
   border-radius: 8px;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
-#projects-section .projects-data article h3 {
+#projects-section   > .projects-data   > article  >  h3 {
   color: #1d1d1d;
   margin: 0%;
   font-family: Poppins;
@@ -501,7 +487,7 @@ scrollbar-width: none;
   line-height: normal;
   margin: 20px 0px 4px 0px;
 }
-#projects-section .projects-data article p {
+#projects-section   > .projects-data   > article p {
   margin: 0px;
   color: #555;
   font-family: Poppins;
@@ -510,10 +496,10 @@ scrollbar-width: none;
   font-weight: 400;
   line-height: normal;
 }
-#projects-section .projects-data article #prjp1 {
+#projects-section   > .projects-data   > article  >  #project-description-text {
   margin-bottom: 25px;
 }
-#projects-section .projects-data article button {
+#projects-section   > .projects-data   > article   > button {
   display: flex;
   padding: 9px 24px;
   justify-content: center;
@@ -530,14 +516,14 @@ scrollbar-width: none;
   font-weight: 500;
   line-height: normal;
 }
-#projects-section .projects-arrows {
+#projects-section   > .projects-arrows {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-#projects-section .projects-arrows button {
+#projects-section   > .projects-arrows   > button {
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -552,12 +538,11 @@ scrollbar-width: none;
 
 /* <!------------------------------------------------------------Projects sections ends----------------------------------------------------------> */
 
-
-
-
 /* <!------------------------------------------------------------Experience sections starts----------------------------------------------------------> */
-
-#experience-section h2 {
+#experience-section {
+  padding-right: 100px;
+}
+#experience-section   > h2 {
   margin-bottom: 68px;
   width: 400px;
   color: #1d1d1d;
@@ -567,25 +552,25 @@ scrollbar-width: none;
   font-weight: 700;
   line-height: normal;
 }
-#experience-section .exp-data {
+#experience-section   > .exp-data {
   display: flex;
   align-items: center;
   gap: 24px;
   width: 1160px;
 }
-#experience-section .exp-data article{
+#experience-section   > .exp-data   > article {
   display: flex;
-  width: 583px;
+  width: 575px;
   height: 160px;
   padding: 20px;
   align-items: flex-start;
   gap: 5px;
   border-radius: 16px;
   background: #f1f1f1;
-  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.2);
 }
 
-#experience-section .exp-data article .exp-img {
+#experience-section   > .exp-data   > article   > .exp-img {
   display: flex;
   width: 300px;
   flex-direction: column;
@@ -595,7 +580,7 @@ scrollbar-width: none;
   flex-shrink: 0;
 }
 
-#experience-section .exp-data article .exp-img img {
+#experience-section  >  .exp-data   > article  >  .exp-img   > img {
   height: 100px;
   width: 240px;
   display: flex;
@@ -605,7 +590,7 @@ scrollbar-width: none;
   left: 20px;
 }
 
-#experience-section .exp-data article .exp-img button {
+#experience-section   > .exp-data   > article   > .exp-img   > button {
   display: flex;
   padding: 10px 24px;
   width: 280px;
@@ -624,14 +609,14 @@ scrollbar-width: none;
   line-height: normal;
   margin: 0%;
 }
-#experience-section .exp-data article .exp-txt {
+#experience-section  >  .exp-data   > article   > .exp-txt {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
 }
 
-#experience-section .exp-data article .exp-txt h3 {
+#experience-section   > .exp-data  >  article   > .exp-txt  >  h3 {
   color: #1d1d1d;
   margin-top: 10px;
   font-family: Poppins;
@@ -642,7 +627,7 @@ scrollbar-width: none;
   font-weight: 700;
   line-height: normal;
 }
-#experience-section .exp-data article .exp-txt #year {
+#experience-section   > .exp-data   > article   > .exp-txt  >  #year {
   color: #1d1d1d;
   width: 300px;
   font-family: Poppins;
@@ -653,7 +638,7 @@ scrollbar-width: none;
   line-height: normal;
 }
 
-#experience-section .exp-data article .exp-txt p {
+#experience-section   > .exp-data   > article   > .exp-txt   > p {
   color: #555;
   width: 300px;
   margin: 0%;
@@ -666,11 +651,8 @@ scrollbar-width: none;
 
 /* <!------------------------------------------------------------Experience sections ends----------------------------------------------------------> */
 
-
-
-
 /* <!------------------------------------------------------------Qualification sections starts----------------------------------------------------------> */
-#qualification h2 {
+#qualification   > h2 {
   margin-bottom: 68px;
   width: 400px;
   color: #1d1d1d;
@@ -680,31 +662,30 @@ scrollbar-width: none;
   font-weight: 700;
   line-height: normal;
 }
-#qualification .qualification-data {
+#qualification  >  .qualification-data {
   height: 620px;
   display: flex;
   align-items: center;
   gap: 77px;
 }
-#qualification .qualification-data .education-section {
+#qualification   > .qualification-data  >  .education-section {
   display: flex;
   width: 450px;
-  padding-left: 32px;
 }
-#qualification .qualification-data .education-section .rline {
+#qualification   > .qualification-data > .education-section   > .rline {
   width: 50px;
   padding-top: 35px;
   display: grid;
   height: 625px;
 }
-#qualification .qualification-data .education-section .rline .round {
+#qualification   > .qualification-data   > .education-section  >  .rline   > .round {
   border: 2px solid black;
   border-radius: 50%;
   background-color: #000;
   height: 30px;
   width: 30px;
 }
-#qualification .qualification-data .education-section .line {
+#qualification   > .qualification-data   > .education-section   > .line {
   border: 1px solid black;
   height: 475px;
   display: flex;
@@ -714,11 +695,11 @@ scrollbar-width: none;
   left: 20px;
   top: 51px;
 }
-#qualification .qualification-data .education-section .education-info {
+#qualification   > .qualification-data   > .education-section   > .education-info {
   display: flex;
   flex-direction: column;
 }
-#qualification .qualification-data .education-section .education-info #p1 {
+#qualification   .qualification-data  .education-section  .education-info  #p1 {
   color: #1d1d1d;
   font-family: Poppins;
   font-size: 38px;
@@ -728,7 +709,7 @@ scrollbar-width: none;
   margin-top: 23px;
   margin-bottom: -20px;
 }
-#qualification .qualification-data .education-section .education-info #p2 {
+#qualification  .qualification-data .education-section   .education-info   #p2 {
   color: #555;
   font-family: Poppins;
   font-size: 24px;
@@ -737,47 +718,49 @@ scrollbar-width: none;
   line-height: normal;
 }
 
-#qualification .qualification-data .education-section .education-info .education-txt {
+#qualification
+  .qualification-data
+  .education-section
+  .education-info
+  .education-txt {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 10px;
 }
-#qualification .qualification-data .qualification-image-text {
+#qualification >  .qualification-data  > .qualification-image-text {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   margin-top: 80px;
+  padding-left: 80px;
 }
-#qualification .qualification-data .qualification-image-text p {
+#qualification  > .qualification-data  > .qualification-image-text >  p {
   color: #555;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   width: 590px;
 }
 
-#qualification .qualification-data .qualification-image-text img {
+#qualification  > .qualification-data  > .qualification-image-text  > img {
   height: 375px;
   width: 620px;
   border-radius: 16px;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* <!------------------------------------------------------------Qualification sections ends------------------------------------------------> */
-
-
-
 
 /* <!------------------------------------------------------------Footer sections starts----------------------------------------------------------> */
 
 footer {
   margin: 0%;
 }
-footer .contact-me-section {
+footer >  .contact-me-section {
   background-color: #1d1d1d;
   color: white;
   display: flex;
@@ -786,42 +769,42 @@ footer .contact-me-section {
   justify-content: center;
   height: 300px;
 }
-footer img {
+footer >  img {
   border: 6px solid #1d1d1d;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   position: relative;
-  top: 50px;
-  left: 42%;
+  top: 73px;
+  left: 43%;
 }
 
-footer .contact-me-section p {
+footer  > .contact-me-section >  p {
   display: flex;
   gap: 20px;
   margin: 10px 0px;
   color: #f5f5f5;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
   margin: 8px 0px 15px 0px;
 }
 
-footer .contact-me-section #name {
+footer >  .contact-me-section  > #name {
   color: #f5f5f5;
   margin-top: 90px;
   margin-bottom: 10px;
   font-family: Poppins;
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; 
+  line-height: 28px;
   letter-spacing: -0.64px;
 }
 
-footer .contact-me-section button {
+footer  > .contact-me-section >  button {
   display: flex;
   padding: 15px 34px;
   justify-content: center;
@@ -831,7 +814,7 @@ footer .contact-me-section button {
   background: #0948b4;
   color: #f5f5f5;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -840,7 +823,7 @@ footer .contact-me-section button {
   margin-top: 10px;
 }
 
-footer .copyright-section {
+footer  > .copyright-section {
   display: flex;
   width: 100%;
   padding: 4px 0px;
@@ -848,7 +831,7 @@ footer .copyright-section {
   align-items: center;
   border-top: 1px solid #dedede;
 }
-footer .copyright-section p {
+footer  > .copyright-section >  p {
   color: #1d1d1d;
   font-family: Lato;
   font-size: 15px;
@@ -856,14 +839,12 @@ footer .copyright-section p {
   font-weight: 400;
   line-height: 22px;
 }
-.fa-regular{
+.fa-regular {
   margin-top: 7px;
 }
-.fa-solid{
+.fa-solid {
   margin-top: 6px;
-
 }
-
 
 /* <!------------------------------------------------------------Footer sections ends----------------------------------------------------------> */
 
